@@ -101,6 +101,13 @@ def _get_summarizer() -> LsaSummarizer:
 
 def _summarize_lsa(text: str, max_sentences: int) -> str:
     """Построить резюме алгоритмом LSA (английский токенизатор)."""
+    import nltk
+
+    try:
+        nltk.data.find("tokenizers/punkt_tab/english/")
+    except LookupError:
+        if not nltk.download("punkt_tab", quiet=True):
+            raise RuntimeError("Не удалось скачать данные NLTK punkt_tab. Проверьте доступ к интернету.")
     parser = PlaintextParser.from_string(text, Tokenizer("english"))
     summary_sentences = _get_summarizer()(parser.document, max_sentences)
     summary = " ".join(str(sentence) for sentence in summary_sentences)
