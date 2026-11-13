@@ -1,0 +1,216 @@
+2026-11-08 21:59:16,758 - INFO - archiv_tracker.main - ▶️ Запуск цикла обработки
+2026-11-08 21:59:16,758 - INFO - archiv_tracker.main -    Темы: aspirin
+2026-11-08 21:59:16,758 - INFO - archiv_tracker.main -    Источники: DailyMed
+2026-11-08 21:59:16,758 - INFO - archiv_tracker.main -    Даты: 2026-11-01 — 2026-11-08
+2026-11-08 21:59:16,758 - INFO - archiv_tracker.main -    Записей с источника: 20; предложений в резюме: 3; резюме: Sumy; лимит текста: 2000; почта: выкл
+2026-11-08 21:59:16,761 - INFO - archiv_tracker.scraper - 📅 Диапазон дат: 2026-11-01 — 2026-11-08
+2026-11-08 21:59:16,761 - INFO - archiv_tracker.scraper - ━━━━━━━━ Источник: DailyMed ━━━━━━━━
+2026-11-08 22:07:12,724 - INFO - archiv_tracker.main - ▶️ Запуск цикла обработки
+2026-11-08 22:07:12,725 - INFO - archiv_tracker.main -    Темы: medical multi-agent
+2026-11-08 22:07:12,725 - INFO - archiv_tracker.main -    Источники: archive.org, arxiv.org, DailyMed, EMA (EPAR / SmPC)
+2026-11-08 22:07:12,725 - INFO - archiv_tracker.main -    Даты: 2026-11-01 — 2026-11-08
+2026-11-08 22:07:12,725 - INFO - archiv_tracker.main -    Записей с источника: 20; предложений в резюме: 3; резюме: Sumy; лимит текста: 2000; почта: выкл
+2026-11-08 22:07:12,728 - INFO - archiv_tracker.scraper - 📅 Диапазон дат: 2026-11-01 — 2026-11-08
+2026-11-08 22:07:12,728 - INFO - archiv_tracker.scraper - ━━━━━━━━ Источник: archive.org ━━━━━━━━
+2026-11-08 22:07:12,728 - INFO - archiv_tracker.archive - 🌐 Запрос к archive.org: ("medical multi-agent") AND publicdate:[2026-11-01 TO 2026-11-08] (последние 20 записей)
+2026-11-08 22:07:13,628 - INFO - archiv_tracker.archive - 📥 archive.org: всего совпадений 0, загружено 0
+2026-11-08 22:07:13,629 - INFO - archiv_tracker.scraper - 🧪 Валидатор проверяет 0 записей на релевантность…
+2026-11-08 22:07:13,630 - INFO - archiv_tracker.scraper - 📊 archive.org: принято 0, отклонено 0, пропущено (история) 0
+2026-11-08 22:07:13,630 - INFO - archiv_tracker.scraper - ━━━━━━━━ Источник: arxiv.org ━━━━━━━━
+2026-11-08 22:07:13,631 - INFO - archiv_tracker.arxiv - 🌐 Запрос к arXiv: (((all:"medical" OR all:medical*) AND (all:"multi" OR all:multi*) AND (all:"agent" OR all:agent*))) AND submittedDate:[202611010000 TO 202611082359] (до 20 препринтов)
+2026-11-08 22:07:14,712 - INFO - archiv_tracker.arxiv - 📥 arXiv (submittedDate): всего совпадений 3
+2026-11-08 22:07:20,163 - INFO - archiv_tracker.arxiv - 📥 arXiv: отдано 9
+2026-11-08 22:07:20,163 - INFO - archiv_tracker.scraper - 🧪 Валидатор проверяет 9 записей на релевантность…
+2026-11-08 22:07:20,163 - INFO - archiv_tracker.scraper - [1/9] «Leveraging deep generative modelling at the agent level in discrete-event simulations»
+2026-11-08 22:07:20,164 - INFO - archiv_tracker.validator - ✅ arxiv:2611.07995v1: тема «medical multi-agent» найдена в заголовке или аннотации
+2026-11-08 22:07:20,164 - INFO - archiv_tracker.scraper - [2/9] «MedZERO: Self-Evolving Agents for Open-Ended Medical Reasoning Through Controlled Knowledg»
+2026-11-08 22:07:20,164 - INFO - archiv_tracker.validator - ✅ arxiv:2610.08327v4: тема «medical multi-agent» найдена в заголовке или аннотации
+2026-11-08 22:07:20,165 - INFO - archiv_tracker.scraper - [3/9] «Beyond Isolated Dots: Benchmarking Structured Table Construction as Deep Knowledge Extract»
+2026-11-08 22:07:20,165 - INFO - archiv_tracker.validator - ✅ arxiv:2507.16271v3: тема «medical multi-agent» найдена в заголовке или аннотации
+2026-11-08 22:07:20,165 - INFO - archiv_tracker.scraper - [4/9] «Agentic AI in medicine: architectures, applications, evaluation, and challenges for clinic»
+2026-11-08 22:07:20,165 - INFO - archiv_tracker.validator - ✅ arxiv:2607.25489v2: тема «medical multi-agent» найдена в заголовке или аннотации
+2026-11-08 22:07:20,165 - INFO - archiv_tracker.scraper - [5/9] «ScienceVision: Can AI Observe and Reason Like a Scientist?»
+2026-11-08 22:07:20,166 - INFO - archiv_tracker.validator - ✅ arxiv:2611.04087v1: тема «medical multi-agent» найдена в заголовке или аннотации
+2026-11-08 22:07:20,166 - INFO - archiv_tracker.scraper - [6/9] «A Guideline-Grounded Multi-Agent Framework for Personalized Exercise Prescription from Cli»
+2026-11-08 22:07:20,166 - INFO - archiv_tracker.validator - ❌ arxiv:2611.03983v1: темы нет ни в заголовке, ни в аннотации – отклонено
+2026-11-08 22:07:20,166 - INFO - archiv_tracker.scraper - [7/9] «Rethinking AI in Medical Imaging: Assumptions, Reality, and Reframing; Towards Physician-C»
+2026-11-08 22:07:20,166 - INFO - archiv_tracker.validator - ✅ arxiv:2607.27428v2: тема «medical multi-agent» найдена в заголовке или аннотации
+2026-11-08 22:07:20,166 - INFO - archiv_tracker.scraper - [8/9] «EyeAgent: An Agentic AI System for Multimodal Clinical Decision Support in Ophthalmology»
+2026-11-08 22:07:20,166 - INFO - archiv_tracker.validator - ✅ arxiv:2511.09394v3: тема «medical multi-agent» найдена в заголовке или аннотации
+2026-11-08 22:07:20,166 - INFO - archiv_tracker.scraper - [9/9] «ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding»
+2026-11-08 22:07:20,166 - INFO - archiv_tracker.validator - ✅ arxiv:2607.24743v3: тема «medical multi-agent» найдена в заголовке или аннотации
+2026-11-08 22:07:20,167 - INFO - archiv_tracker.scraper - 📊 arxiv.org: принято 8, отклонено 1, пропущено (история) 0
+2026-11-08 22:07:20,167 - INFO - archiv_tracker.scraper - ━━━━━━━━ Источник: DailyMed ━━━━━━━━
+2026-11-08 22:07:21,033 - INFO - archiv_tracker.scraper - 🧪 Валидатор проверяет 0 записей на релевантность…
+2026-11-08 22:07:21,034 - INFO - archiv_tracker.scraper - 📊 DailyMed: принято 0, отклонено 0, пропущено (история) 0
+2026-11-08 22:07:21,034 - INFO - archiv_tracker.scraper - ━━━━━━━━ Источник: EMA (EPAR / SmPC) ━━━━━━━━
+2026-11-08 22:07:22,012 - INFO - archiv_tracker.scraper - 🧪 Валидатор проверяет 0 записей на релевантность…
+2026-11-08 22:07:22,012 - INFO - archiv_tracker.scraper - 📊 EMA (EPAR / SmPC): принято 0, отклонено 0, пропущено (история) 0
+2026-11-08 22:07:22,012 - INFO - archiv_tracker.scraper - 📦 Всего новых релевантных записей: 8
+2026-11-08 22:07:22,013 - INFO - archiv_tracker.main - ━━━━━━━━ Суммаризация: 8 публикаций ━━━━━━━━
+2026-11-08 22:07:22,013 - INFO - archiv_tracker.main - 📄 [1/8] (arxiv.org) Leveraging deep generative modelling at the agent level in discrete-event simulations
+2026-11-08 22:07:22,013 - INFO - archiv_tracker.main -    Текст: аннотация из метаданных, 1432 символов
+2026-11-08 22:07:55,401 - INFO - archiv_tracker.summarizer - Резюме построено алгоритмом LSA (2 предложений).
+2026-11-08 22:08:09,513 - INFO - archiv_tracker.main - ▶️ Запуск цикла обработки
+2026-11-08 22:08:09,513 - INFO - archiv_tracker.main -    Темы: medical multi-agent
+2026-11-08 22:08:09,514 - INFO - archiv_tracker.main -    Источники: archive.org, arxiv.org, DailyMed, EMA (EPAR / SmPC)
+2026-11-08 22:08:09,514 - INFO - archiv_tracker.main -    Даты: 2026-11-01 — 2026-11-08
+2026-11-08 22:08:09,514 - INFO - archiv_tracker.main -    Записей с источника: 20; предложений в резюме: 3; резюме: Sumy; лимит текста: 2000; почта: выкл
+2026-11-08 22:08:09,516 - INFO - archiv_tracker.scraper - 📅 Диапазон дат: 2026-11-01 — 2026-11-08
+2026-11-08 22:08:09,516 - INFO - archiv_tracker.scraper - ━━━━━━━━ Источник: archive.org ━━━━━━━━
+2026-11-08 22:08:09,516 - INFO - archiv_tracker.archive - 🌐 Запрос к archive.org: ("medical multi-agent") AND publicdate:[2026-11-01 TO 2026-11-08] (последние 20 записей)
+2026-11-08 22:08:10,359 - INFO - archiv_tracker.archive - 📥 archive.org: всего совпадений 0, загружено 0
+2026-11-08 22:08:10,359 - INFO - archiv_tracker.scraper - 🧪 Валидатор проверяет 0 записей на релевантность…
+2026-11-08 22:08:10,359 - INFO - archiv_tracker.scraper - 📊 archive.org: принято 0, отклонено 0, пропущено (история) 0
+2026-11-08 22:08:10,359 - INFO - archiv_tracker.scraper - ━━━━━━━━ Источник: arxiv.org ━━━━━━━━
+2026-11-08 22:08:10,359 - INFO - archiv_tracker.arxiv - 🌐 Запрос к arXiv: (((all:"medical" OR all:medical*) AND (all:"multi" OR all:multi*) AND (all:"agent" OR all:agent*))) AND submittedDate:[202611010000 TO 202611082359] (до 20 препринтов)
+2026-11-08 22:08:10,732 - INFO - archiv_tracker.arxiv - 📥 arXiv (submittedDate): всего совпадений 3
+2026-11-08 22:08:14,441 - INFO - archiv_tracker.arxiv - 📥 arXiv: отдано 9
+2026-11-08 22:08:14,441 - INFO - archiv_tracker.scraper - 🧪 Валидатор проверяет 9 записей на релевантность…
+2026-11-08 22:08:14,441 - INFO - archiv_tracker.scraper - [1/9] «Leveraging deep generative modelling at the agent level in discrete-event simulations»
+2026-11-08 22:08:14,441 - INFO - archiv_tracker.validator - ✅ arxiv:2611.07995v1: тема «medical multi-agent» найдена в заголовке или аннотации
+2026-11-08 22:08:14,441 - INFO - archiv_tracker.scraper - [2/9] «MedZERO: Self-Evolving Agents for Open-Ended Medical Reasoning Through Controlled Knowledg»
+2026-11-08 22:08:14,441 - INFO - archiv_tracker.validator - ✅ arxiv:2610.08327v4: тема «medical multi-agent» найдена в заголовке или аннотации
+2026-11-08 22:08:14,441 - INFO - archiv_tracker.scraper - [3/9] «Beyond Isolated Dots: Benchmarking Structured Table Construction as Deep Knowledge Extract»
+2026-11-08 22:08:14,441 - INFO - archiv_tracker.validator - ✅ arxiv:2507.16271v3: тема «medical multi-agent» найдена в заголовке или аннотации
+2026-11-08 22:08:14,441 - INFO - archiv_tracker.scraper - [4/9] «Agentic AI in medicine: architectures, applications, evaluation, and challenges for clinic»
+2026-11-08 22:08:14,441 - INFO - archiv_tracker.validator - ✅ arxiv:2607.25489v2: тема «medical multi-agent» найдена в заголовке или аннотации
+2026-11-08 22:08:14,441 - INFO - archiv_tracker.scraper - [5/9] «ScienceVision: Can AI Observe and Reason Like a Scientist?»
+2026-11-08 22:08:14,441 - INFO - archiv_tracker.validator - ✅ arxiv:2611.04087v1: тема «medical multi-agent» найдена в заголовке или аннотации
+2026-11-08 22:08:14,441 - INFO - archiv_tracker.scraper - [6/9] «A Guideline-Grounded Multi-Agent Framework for Personalized Exercise Prescription from Cli»
+2026-11-08 22:08:14,441 - INFO - archiv_tracker.validator - ❌ arxiv:2611.03983v1: темы нет ни в заголовке, ни в аннотации – отклонено
+2026-11-08 22:08:14,441 - INFO - archiv_tracker.scraper - [7/9] «Rethinking AI in Medical Imaging: Assumptions, Reality, and Reframing; Towards Physician-C»
+2026-11-08 22:08:14,441 - INFO - archiv_tracker.validator - ✅ arxiv:2607.27428v2: тема «medical multi-agent» найдена в заголовке или аннотации
+2026-11-08 22:08:14,441 - INFO - archiv_tracker.scraper - [8/9] «EyeAgent: An Agentic AI System for Multimodal Clinical Decision Support in Ophthalmology»
+2026-11-08 22:08:14,441 - INFO - archiv_tracker.validator - ✅ arxiv:2511.09394v3: тема «medical multi-agent» найдена в заголовке или аннотации
+2026-11-08 22:08:14,441 - INFO - archiv_tracker.scraper - [9/9] «ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding»
+2026-11-08 22:08:14,441 - INFO - archiv_tracker.validator - ✅ arxiv:2607.24743v3: тема «medical multi-agent» найдена в заголовке или аннотации
+2026-11-08 22:08:14,441 - INFO - archiv_tracker.scraper - 📊 arxiv.org: принято 8, отклонено 1, пропущено (история) 0
+2026-11-08 22:08:14,441 - INFO - archiv_tracker.scraper - ━━━━━━━━ Источник: DailyMed ━━━━━━━━
+2026-11-08 22:08:15,280 - INFO - archiv_tracker.scraper - 🧪 Валидатор проверяет 0 записей на релевантность…
+2026-11-08 22:08:15,281 - INFO - archiv_tracker.scraper - 📊 DailyMed: принято 0, отклонено 0, пропущено (история) 0
+2026-11-08 22:08:15,281 - INFO - archiv_tracker.scraper - ━━━━━━━━ Источник: EMA (EPAR / SmPC) ━━━━━━━━
+2026-11-08 22:08:16,275 - INFO - archiv_tracker.scraper - 🧪 Валидатор проверяет 0 записей на релевантность…
+2026-11-08 22:08:16,275 - INFO - archiv_tracker.scraper - 📊 EMA (EPAR / SmPC): принято 0, отклонено 0, пропущено (история) 0
+2026-11-08 22:08:16,275 - INFO - archiv_tracker.scraper - 📦 Всего новых релевантных записей: 8
+2026-11-08 22:08:16,275 - INFO - archiv_tracker.main - ━━━━━━━━ Суммаризация: 8 публикаций ━━━━━━━━
+2026-11-08 22:08:16,275 - INFO - archiv_tracker.main - 📄 [1/8] (arxiv.org) Leveraging deep generative modelling at the agent level in discrete-event simulations
+2026-11-08 22:08:16,275 - INFO - archiv_tracker.main -    Текст: аннотация из метаданных, 1432 символов
+2026-11-08 22:08:16,362 - INFO - archiv_tracker.summarizer - Резюме построено алгоритмом LSA (3 предложений).
+2026-11-08 22:08:16,363 - INFO - archiv_tracker.main -    ✍️ Резюме готово: 344 символов
+2026-11-08 22:08:16,363 - INFO - archiv_tracker.main -    ✉️ Почта выключена – письмо не отправлялось
+2026-11-08 22:08:16,363 - INFO - archiv_tracker.main - 📄 [2/8] (arxiv.org) MedZERO: Self-Evolving Agents for Open-Ended Medical Reasoning Through Controlled Knowledge Accumula
+2026-11-08 22:08:16,366 - INFO - archiv_tracker.main -    Текст: аннотация из метаданных, 1406 символов
+2026-11-08 22:08:16,409 - INFO - archiv_tracker.summarizer - Резюме построено алгоритмом LSA (3 предложений).
+2026-11-08 22:08:16,410 - INFO - archiv_tracker.main -    ✍️ Резюме готово: 455 символов
+2026-11-08 22:08:16,410 - INFO - archiv_tracker.main -    ✉️ Почта выключена – письмо не отправлялось
+2026-11-08 22:08:16,410 - INFO - archiv_tracker.main - 📄 [3/8] (arxiv.org) Beyond Isolated Dots: Benchmarking Structured Table Construction as Deep Knowledge Extraction
+2026-11-08 22:08:16,410 - INFO - archiv_tracker.main -    Текст: аннотация из метаданных, 1149 символов
+2026-11-08 22:08:16,450 - INFO - archiv_tracker.summarizer - Резюме построено алгоритмом LSA (3 предложений).
+2026-11-08 22:08:16,450 - INFO - archiv_tracker.main -    ✍️ Резюме готово: 725 символов
+2026-11-08 22:08:16,451 - INFO - archiv_tracker.main -    ✉️ Почта выключена – письмо не отправлялось
+2026-11-08 22:08:16,451 - INFO - archiv_tracker.main - 📄 [4/8] (arxiv.org) Agentic AI in medicine: architectures, applications, evaluation, and challenges for clinical transla
+2026-11-08 22:08:16,451 - INFO - archiv_tracker.main -    Текст: аннотация из метаданных, 1567 символов
+2026-11-08 22:08:16,491 - INFO - archiv_tracker.summarizer - Резюме построено алгоритмом LSA (3 предложений).
+2026-11-08 22:08:16,491 - INFO - archiv_tracker.main -    ✍️ Резюме готово: 616 символов
+2026-11-08 22:08:16,492 - INFO - archiv_tracker.main -    ✉️ Почта выключена – письмо не отправлялось
+2026-11-08 22:08:16,492 - INFO - archiv_tracker.main - 📄 [5/8] (arxiv.org) ScienceVision: Can AI Observe and Reason Like a Scientist?
+2026-11-08 22:08:16,492 - INFO - archiv_tracker.main -    Текст: аннотация из метаданных, 1884 символов
+2026-11-08 22:08:16,531 - INFO - archiv_tracker.summarizer - Резюме построено алгоритмом LSA (3 предложений).
+2026-11-08 22:08:16,533 - INFO - archiv_tracker.main -    ✍️ Резюме готово: 744 символов
+2026-11-08 22:08:16,533 - INFO - archiv_tracker.main -    ✉️ Почта выключена – письмо не отправлялось
+2026-11-08 22:08:16,533 - INFO - archiv_tracker.main - 📄 [6/8] (arxiv.org) Rethinking AI in Medical Imaging: Assumptions, Reality, and Reframing; Towards Physician-Centered Ag
+2026-11-08 22:08:16,533 - INFO - archiv_tracker.main -    Текст: аннотация из метаданных, 1315 символов
+2026-11-08 22:08:16,571 - INFO - archiv_tracker.summarizer - Резюме построено алгоритмом LSA (3 предложений).
+2026-11-08 22:08:16,572 - INFO - archiv_tracker.main -    ✍️ Резюме готово: 503 символов
+2026-11-08 22:08:16,573 - INFO - archiv_tracker.main -    ✉️ Почта выключена – письмо не отправлялось
+2026-11-08 22:08:16,573 - INFO - archiv_tracker.main - 📄 [7/8] (arxiv.org) EyeAgent: An Agentic AI System for Multimodal Clinical Decision Support in Ophthalmology
+2026-11-08 22:08:16,573 - INFO - archiv_tracker.main -    Текст: аннотация из метаданных, 1865 символов
+2026-11-08 22:08:16,614 - INFO - archiv_tracker.summarizer - Резюме построено алгоритмом LSA (3 предложений).
+2026-11-08 22:08:16,615 - INFO - archiv_tracker.main -    ✍️ Резюме готово: 547 символов
+2026-11-08 22:08:16,615 - INFO - archiv_tracker.main -    ✉️ Почта выключена – письмо не отправлялось
+2026-11-08 22:08:16,615 - INFO - archiv_tracker.main - 📄 [8/8] (arxiv.org) ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding
+2026-11-08 22:08:16,615 - INFO - archiv_tracker.main -    Текст: аннотация из метаданных, 1887 символов
+2026-11-08 22:08:16,656 - INFO - archiv_tracker.summarizer - Резюме построено алгоритмом LSA (3 предложений).
+2026-11-08 22:08:16,656 - INFO - archiv_tracker.main -    ✍️ Резюме готово: 653 символов
+2026-11-08 22:08:16,656 - INFO - archiv_tracker.main -    ✉️ Почта выключена – письмо не отправлялось
+2026-11-08 22:08:16,656 - INFO - archiv_tracker.main - ⏹ Цикл завершён за 7.1 с: обработано 8, с резюме 8
+2026-11-08 22:09:22,826 - INFO - archiv_tracker.main - ▶️ Запуск цикла обработки
+2026-11-08 22:09:22,826 - INFO - archiv_tracker.main -    Темы: aspirin
+2026-11-08 22:09:22,826 - INFO - archiv_tracker.main -    Источники: DailyMed
+2026-11-08 22:09:22,826 - INFO - archiv_tracker.main -    Даты: 2026-11-01 — 2026-11-08
+2026-11-08 22:09:22,826 - INFO - archiv_tracker.main -    Записей с источника: 20; предложений в резюме: 3; резюме: Sumy; лимит текста: 2000; почта: выкл
+2026-11-08 22:09:22,828 - INFO - archiv_tracker.scraper - 📅 Диапазон дат: 2026-11-01 — 2026-11-08
+2026-11-08 22:09:22,829 - INFO - archiv_tracker.scraper - ━━━━━━━━ Источник: DailyMed ━━━━━━━━
+2026-11-08 22:09:23,674 - INFO - archiv_tracker.scraper - 🧪 Валидатор проверяет 6 записей на релевантность…
+2026-11-08 22:09:23,674 - INFO - archiv_tracker.scraper - [1/6] «CARDIASPIRIN PROTECT (ASPIRIN) TABLET, COATED [OPMX LLC]»
+2026-11-08 22:09:23,674 - INFO - archiv_tracker.validator - ✅ dailymed:03774690-662b-1c30-e063-6294a90a3488: тема «aspirin» найдена в заголовке или аннотации
+2026-11-08 22:09:23,675 - INFO - archiv_tracker.scraper - [2/6] «DOLEX FORTE (ACETAMINOPHEN, ASPIRIN, CAFFEINE) TABLET [PHARMADEL LLC]»
+2026-11-08 22:09:23,675 - INFO - archiv_tracker.validator - ✅ dailymed:3c2d90fc-130d-476c-e063-6294a90a8c15: тема «aspirin» найдена в заголовке или аннотации
+2026-11-08 22:09:23,675 - INFO - archiv_tracker.scraper - [3/6] «HEADACHE RELIEF (ACETAMINOPHEN, ASPIRIN, CAFFEINE) TABLET, FILM COATED [LEADER/ CARDINAL H»
+2026-11-08 22:09:23,675 - INFO - archiv_tracker.validator - ✅ dailymed:b3773f02-02a9-33c8-e053-2995a90a2235: тема «aspirin» найдена в заголовке или аннотации
+2026-11-08 22:09:23,675 - INFO - archiv_tracker.scraper - [4/6] «ADULT LOW DOSE ASPIRIN (ASPIRIN) TABLET, DELAYED RELEASE [HYVEE INC]»
+2026-11-08 22:09:23,675 - INFO - archiv_tracker.validator - ✅ dailymed:45ae4509-fb50-66fd-e063-6294a90a2d7b: тема «aspirin» найдена в заголовке или аннотации
+2026-11-08 22:09:23,675 - INFO - archiv_tracker.scraper - [5/6] «EQUATE ASPIRIN CHEWABLE (ASPIRIN) TABLET, CHEWABLE [WAL-MART STORES INC]»
+2026-11-08 22:09:23,675 - INFO - archiv_tracker.validator - ✅ dailymed:9147c0ce-fcdb-457c-b9f5-e4edd66e91d0: тема «aspirin» найдена в заголовке или аннотации
+2026-11-08 22:09:23,675 - INFO - archiv_tracker.scraper - [6/6] «FOSTER AND THRIVE MIGRAINE RELIEF (ACETAMINOPHEN, ASPIRIN, CAFFEINE) TABLET, FILM COATED [»
+2026-11-08 22:09:23,675 - INFO - archiv_tracker.validator - ✅ dailymed:fe9bf032-fc8b-4b2d-8c6b-acdbe1f320bf: тема «aspirin» найдена в заголовке или аннотации
+2026-11-08 22:09:23,675 - INFO - archiv_tracker.scraper - 📊 DailyMed: принято 6, отклонено 0, пропущено (история) 0
+2026-11-08 22:09:23,675 - INFO - archiv_tracker.scraper - 📦 Всего новых релевантных записей: 6
+2026-11-08 22:09:23,675 - INFO - archiv_tracker.main - ━━━━━━━━ Суммаризация: 6 публикаций ━━━━━━━━
+2026-11-08 22:09:23,675 - INFO - archiv_tracker.main - 📄 [1/6] (DailyMed) CARDIASPIRIN PROTECT (ASPIRIN) TABLET, COATED [OPMX LLC]
+2026-11-08 22:09:23,675 - INFO - archiv_tracker.main -    Загрузка страницы https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=03774690-662b-1c30-e063-6294a90a3488 …
+2026-11-08 22:09:24,582 - INFO - archiv_tracker.main -    Текст: со страницы, 2000 символов (0.9 с)
+2026-11-08 22:09:24,624 - INFO - archiv_tracker.summarizer - Резюме построено алгоритмом LSA (3 предложений).
+2026-11-08 22:09:24,625 - INFO - archiv_tracker.main -    ✍️ Резюме готово: 1575 символов
+2026-11-08 22:09:24,626 - INFO - archiv_tracker.main -    ✉️ Почта выключена – письмо не отправлялось
+2026-11-08 22:09:24,626 - INFO - archiv_tracker.main - 📄 [2/6] (DailyMed) DOLEX FORTE (ACETAMINOPHEN, ASPIRIN, CAFFEINE) TABLET [PHARMADEL LLC]
+2026-11-08 22:09:24,626 - INFO - archiv_tracker.main -    Загрузка страницы https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3c2d90fc-130d-476c-e063-6294a90a8c15 …
+2026-11-08 22:09:25,617 - INFO - archiv_tracker.main -    Текст: со страницы, 2000 символов (1.0 с)
+2026-11-08 22:09:25,661 - INFO - archiv_tracker.summarizer - Резюме построено алгоритмом LSA (3 предложений).
+2026-11-08 22:09:25,662 - INFO - archiv_tracker.main -    ✍️ Резюме готово: 1568 символов
+2026-11-08 22:09:25,662 - INFO - archiv_tracker.main -    ✉️ Почта выключена – письмо не отправлялось
+2026-11-08 22:09:25,662 - INFO - archiv_tracker.main - 📄 [3/6] (DailyMed) HEADACHE RELIEF (ACETAMINOPHEN, ASPIRIN, CAFFEINE) TABLET, FILM COATED [LEADER/ CARDINAL HEALTH 110,
+2026-11-08 22:09:25,662 - INFO - archiv_tracker.main -    Загрузка страницы https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b3773f02-02a9-33c8-e053-2995a90a2235 …
+2026-11-08 22:09:26,568 - INFO - archiv_tracker.main -    Текст: со страницы, 2000 символов (0.9 с)
+2026-11-08 22:09:26,608 - INFO - archiv_tracker.summarizer - Резюме построено алгоритмом LSA (3 предложений).
+2026-11-08 22:09:26,609 - INFO - archiv_tracker.main -    ✍️ Резюме готово: 1551 символов
+2026-11-08 22:09:26,609 - INFO - archiv_tracker.main -    ✉️ Почта выключена – письмо не отправлялось
+2026-11-08 22:09:26,609 - INFO - archiv_tracker.main - 📄 [4/6] (DailyMed) ADULT LOW DOSE ASPIRIN (ASPIRIN) TABLET, DELAYED RELEASE [HYVEE INC]
+2026-11-08 22:09:26,609 - INFO - archiv_tracker.main -    Загрузка страницы https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=45ae4509-fb50-66fd-e063-6294a90a2d7b …
+2026-11-08 22:09:27,565 - INFO - archiv_tracker.main -    Текст: со страницы, 2000 символов (1.0 с)
+2026-11-08 22:09:27,606 - INFO - archiv_tracker.summarizer - Резюме построено алгоритмом LSA (3 предложений).
+2026-11-08 22:09:27,607 - INFO - archiv_tracker.main -    ✍️ Резюме готово: 1565 символов
+2026-11-08 22:09:27,607 - INFO - archiv_tracker.main -    ✉️ Почта выключена – письмо не отправлялось
+2026-11-08 22:09:27,607 - INFO - archiv_tracker.main - 📄 [5/6] (DailyMed) EQUATE ASPIRIN CHEWABLE (ASPIRIN) TABLET, CHEWABLE [WAL-MART STORES INC]
+2026-11-08 22:09:27,607 - INFO - archiv_tracker.main -    Загрузка страницы https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9147c0ce-fcdb-457c-b9f5-e4edd66e91d0 …
+2026-11-08 22:09:28,511 - INFO - archiv_tracker.main -    Текст: со страницы, 2000 символов (0.9 с)
+2026-11-08 22:09:28,594 - INFO - archiv_tracker.summarizer - Резюме построено алгоритмом LSA (3 предложений).
+2026-11-08 22:09:28,595 - INFO - archiv_tracker.main -    ✍️ Резюме готово: 1570 символов
+2026-11-08 22:09:28,595 - INFO - archiv_tracker.main -    ✉️ Почта выключена – письмо не отправлялось
+2026-11-08 22:09:28,595 - INFO - archiv_tracker.main - 📄 [6/6] (DailyMed) FOSTER AND THRIVE MIGRAINE RELIEF (ACETAMINOPHEN, ASPIRIN, CAFFEINE) TABLET, FILM COATED [STRATEGIC 
+2026-11-08 22:09:28,595 - INFO - archiv_tracker.main -    Загрузка страницы https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fe9bf032-fc8b-4b2d-8c6b-acdbe1f320bf …
+2026-11-08 22:09:29,527 - INFO - archiv_tracker.main -    Текст: со страницы, 2000 символов (0.9 с)
+2026-11-08 22:09:29,569 - INFO - archiv_tracker.summarizer - Резюме построено алгоритмом LSA (3 предложений).
+2026-11-08 22:09:29,570 - INFO - archiv_tracker.main -    ✍️ Резюме готово: 1770 символов
+2026-11-08 22:09:29,570 - INFO - archiv_tracker.main -    ✉️ Почта выключена – письмо не отправлялось
+2026-11-08 22:09:29,570 - INFO - archiv_tracker.main - ⏹ Цикл завершён за 6.7 с: обработано 6, с резюме 6
+2026-11-08 22:11:51,757 - INFO - archiv_tracker.main - ▶️ Запуск цикла обработки
+2026-11-08 22:11:51,758 - INFO - archiv_tracker.main -    Темы: rivaroxaban
+2026-11-08 22:11:51,758 - INFO - archiv_tracker.main -    Источники: EMA (EPAR / SmPC)
+2026-11-08 22:11:51,758 - INFO - archiv_tracker.main -    Даты: 2026-11-01 — 2026-11-08
+2026-11-08 22:11:51,758 - INFO - archiv_tracker.main -    Записей с источника: 20; предложений в резюме: 3; резюме: Sumy; лимит текста: 2000; почта: выкл
+2026-11-08 22:11:51,760 - INFO - archiv_tracker.scraper - 📅 Диапазон дат: 2026-11-01 — 2026-11-08
+2026-11-08 22:11:51,761 - INFO - archiv_tracker.scraper - ━━━━━━━━ Источник: EMA (EPAR / SmPC) ━━━━━━━━
+2026-11-08 22:11:52,723 - INFO - archiv_tracker.scraper - 🧪 Валидатор проверяет 1 записей на релевантность…
+2026-11-08 22:11:52,723 - INFO - archiv_tracker.scraper - [1/1] «Rivaroxaban Viatris (previously Rivaroxaban Mylan)»
+2026-11-08 22:11:52,723 - INFO - archiv_tracker.validator - ✅ ema:https://www.ema.europa.eu/en/medicines/human/EPAR/rivaroxaban-viatris: тема «rivaroxaban» найдена в заголовке или аннотации
+2026-11-08 22:11:52,724 - INFO - archiv_tracker.scraper - 📊 EMA (EPAR / SmPC): принято 1, отклонено 0, пропущено (история) 0
+2026-11-08 22:11:52,724 - INFO - archiv_tracker.scraper - 📦 Всего новых релевантных записей: 1
+2026-11-08 22:11:52,724 - INFO - archiv_tracker.main - ━━━━━━━━ Суммаризация: 1 публикаций ━━━━━━━━
+2026-11-08 22:11:52,724 - INFO - archiv_tracker.main - 📄 [1/1] (EMA (EPAR / SmPC)) Rivaroxaban Viatris (previously Rivaroxaban Mylan)
+2026-11-08 22:11:52,724 - INFO - archiv_tracker.main -    Текст: аннотация из метаданных, 1707 символов
+2026-11-08 22:11:52,766 - INFO - archiv_tracker.summarizer - Резюме построено алгоритмом LSA (3 предложений).
+2026-11-08 22:11:52,767 - INFO - archiv_tracker.main -    ✍️ Резюме готово: 804 символов
+2026-11-08 22:11:52,767 - INFO - archiv_tracker.main -    ✉️ Почта выключена – письмо не отправлялось
+2026-11-08 22:11:52,767 - INFO - archiv_tracker.main - ⏹ Цикл завершён за 1.0 с: обработано 1, с резюме 1
